@@ -1,163 +1,187 @@
-/* текст черный : #212121; */
-/* текст серый : #757575; */
-/* текст белый : #FFFFFF; */
-/* текст голубой : #2196F3; */
-
-/* фон серый : #F5F4FA; */
-/* фон голубой : #2196F3; */
-/* фон черный : #2F303A; */
-/* фон белый #E5E5E5 */
-
-:root {    --accent-color: #2196F3;  }
-
-:root {    --black-text: #212121;  }
-:root {    --grey-text: #757575;  }
-:root {    --white-text: #ffffff;  }
-
-:root {    --white-back: #E5E5E5;  }
-:root {    --grey-back: #F5F4FA;  }
-:root {    --dark-back: #2F303A;  }
-
-:root {--size-heder: 14px}
-:root {--height-heder: 24px}
-
-body {font-family: 'Roboto','Helvetica Neue', 'Verdana', 'Tahoma', sans-serif; 
-color: var(--black-text);
-font-size: 14px;
-font-weight: 700;
-line-height: 1;
+:root {
+  --accent-color: #2196f3;
 }
 
-
-
-.list{list-style: none;}
-
-.logo {color: var(--accent-color); 
-    font-weight: 700;
-    font-family:'Raleway'; 
-    font-size: 26px;
-    text-align: Left;
-    letter-spacing: 3%
+:root {
+  --black-text: #212121;
 }
-.logo-sec {color: var(--black-text);}
-
-.site-nav {font-weight: 500;
-font-size: var(--size-heder);
-line-height: var(--height-heder);
+:root {
+  --grey-text: #757575;
+}
+:root {
+  --white-text: #ffffff;
 }
 
-.mail {color: var(--grey-text);
-font-size: var(--size-heder);
-line-height: var(--height-heder);
+:root {
+  --white-back: #e5e5e5;
+}
+:root {
+  --grey-back: #f5f4fa;
+}
+:root {
+  --dark-back: #2f303a;
 }
 
-.phone {color: var(--grey-text);
-font-size: var(--size-heder);
-line-height: var(--height-heder);
+:root {
+  --size-heder: 14px;
+}
+:root {
+  --height-heder: 24px;
 }
 
-.current {color: var(--accent-color);
+body {
+  font-family: "Roboto", "Helvetica Neue", "Verdana", "Tahoma", sans-serif;
+  color: var(--black-text);
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1;
 }
 
-.link {color: inherit;}
+.list {
+  list-style: none;
+}
+
+.logo {
+  color: var(--accent-color);
+  font-weight: 700;
+  font-family: "Raleway";
+  font-size: 26px;
+  text-align: Left;
+  letter-spacing: 3%;
+}
+.logo-sec {
+  color: var(--black-text);
+}
+
+.site-nav {
+  font-weight: 500;
+  font-size: var(--size-heder);
+  line-height: var(--height-heder);
+}
+
+.mail {
+  color: var(--grey-text);
+  font-size: var(--size-heder);
+  line-height: var(--height-heder);
+}
+
+.phone {
+  color: var(--grey-text);
+  font-size: var(--size-heder);
+  line-height: var(--height-heder);
+}
+
+.current {
+  color: var(--accent-color);
+}
+
+.link {
+  color: inherit;
+}
 
 .hero {
-background-color: var(--dark-back);
-font-weight: 900;
-font-size: 44;
-line-height: 1.16;
-color: var(--white-text);
+  background-color: var(--dark-back);
+  font-weight: 900;
+  font-size: 44;
+  line-height: 1.16;
+  color: var(--white-text);
 }
 
-.unvisible {visibility: hidden;}
+.unvisible {
+  visibility: hidden;
+}
 
 .order {
-    background-color: var(--accent-color);
-    color: var(--white-text);
-    font-size: 16px;
-    font-weight: 700;
-    line-height: 1.6;
+  background-color: var(--accent-color);
+  color: var(--white-text);
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.6;
 }
 
 .description {
-    font-weight: 400;
-    color: var(--grey-text);
-    line-height: 1.46;
+  font-weight: 400;
+  color: var(--grey-text);
+  line-height: 1.46;
 }
 
 .advantages {
-font-weight: 700;
+  font-weight: 700;
 }
 
 .section-name {
-font-size: 36px;
-font-weight: 700;
+  font-size: 36px;
+  font-weight: 700;
 }
 
 .team {
-    font-size: 16px;
-    font-weight: 500;
-    background-color: var(--grey-back);
-    line-height: 1;
+  font-size: 16px;
+  font-weight: 500;
+  background-color: var(--grey-back);
+  line-height: 1;
 }
 
-.profession{
-    color: var(--grey-text);
-    font-weight: 400;
+.profession {
+  color: var(--grey-text);
+  font-weight: 400;
 }
 
-.footer{
-    background-color: var(--dark-back);
+.footer {
+  background-color: var(--dark-back);
 }
 
-.adress{
-    line-height: 1.46;
-    font-weight: 700;
-    color: var(--white-text);
-    font-style: inherit;
-    }
-
-.contacts{
-    color: rgba(255, 255, 255, 0.6);
-    font-weight: 400;
-    line-height: 1.46;
+.adress {
+  line-height: 1.46;
+  font-weight: 700;
+  color: var(--white-text);
+  font-style: inherit;
 }
 
-.logo-sec-footer{
-    color: var(--white-text);
+.contacts {
+  color: rgba(255, 255, 255, 0.6);
+  font-weight: 400;
+  line-height: 1.46;
 }
 
-.portfolio-name{
-    font-size: 18px;
-    line-height: 1.71;
-    font-weight: 700;
-    }
-
-.portfolio-type{
-    font-size: 16px;
-    line-height: 1.6;
-    font-weight: 400;
-    color:var(--grey-text);
+.logo-sec-footer {
+  color: var(--white-text);
 }
 
-.filter{
-    font-weight: 500;
-    line-height: 1.39;
-    font-size: 16px;
-    color: var(--black-text);
-    background-color:var(--grey-back);
+.portfolio-name {
+  font-size: 18px;
+  line-height: 1.71;
+  font-weight: 700;
+}
+
+.portfolio-type {
+  font-size: 16px;
+  line-height: 1.6;
+  font-weight: 400;
+  color: var(--grey-text);
+}
+
+.filter {
+  font-weight: 500;
+  line-height: 1.39;
+  font-size: 16px;
+  color: var(--black-text);
+  background-color: var(--grey-back);
 }
 
 /* псевдоклассы состояния: */
 
 .interactive:hover,
-.interactive:focus{color: var(--accent-color);}
+.interactive:focus {
+  color: var(--accent-color);
+}
 .filter:hover,
-.filter:focus{
-    color: var(--white-text);
-    background-color:var(--accent-color);
-    cursor: pointer;
+.filter:focus {
+  color: var(--white-text);
+  background-color: var(--accent-color);
+  cursor: pointer;
 }
 
 .order:hover,
-.order:focus{cursor: pointer;}
+.order:focus {
+  cursor: pointer;
+}
