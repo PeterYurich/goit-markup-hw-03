@@ -10,6 +10,8 @@
   --height-heder: 24px;
 }
 
+
+
 body {
   font-family: "Roboto", "Helvetica Neue", "Verdana", "Tahoma", sans-serif;
   color: var(--black-text);
@@ -18,7 +20,8 @@ body {
   line-height: 1;
 }
 
-.list {
+
+.link {
   list-style: none;
 }
 
@@ -171,3 +174,59 @@ body {
 .order:focus {
   cursor: pointer;
 }
+
+/* hm-3-flex */
+
+/* сбросы */
+
+p, h1, h2, h3 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+ul, ol{
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+
+.list {
+  list-style: none;
+  padding-bottom: 0;
+}
+
+img {
+  display: block;
+}
+
+
+.container {
+  width: 1600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.heder-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 0 215px;
+  justify-content: start;
+    }
+
+  .navigation {
+    display: flex;
+  }
+
+.header-contacts {
+  display: flex;
+  }
+
+  .logo{
+    margin-right: 93px;
+  }
+
+  .nav-item:not(:last-child) {
+    margin-right: 50px;
+  }
+
