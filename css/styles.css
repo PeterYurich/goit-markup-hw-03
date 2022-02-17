@@ -1,31 +1,12 @@
 :root {
   --accent-color: #2196f3;
-}
-
-:root {
   --black-text: #212121;
-}
-:root {
   --grey-text: #757575;
-}
-:root {
   --white-text: #ffffff;
-}
-
-:root {
   --white-back: #e5e5e5;
-}
-:root {
   --grey-back: #f5f4fa;
-}
-:root {
   --dark-back: #2f303a;
-}
-
-:root {
   --size-heder: 14px;
-}
-:root {
   --height-heder: 24px;
 }
 
@@ -82,9 +63,10 @@ body {
 .hero {
   background-color: var(--dark-back);
   font-weight: 900;
-  font-size: 44;
+  font-size: 44px;
   line-height: 1.16;
   color: var(--white-text);
+  letter-spacing: 6%;
 }
 
 .unvisible {
@@ -103,15 +85,18 @@ body {
   font-weight: 400;
   color: var(--grey-text);
   line-height: 1.46;
+  letter-spacing: 3%;
 }
 
 .advantages {
   font-weight: 700;
+  letter-spacing: 3%;
 }
 
 .section-name {
   font-size: 36px;
   font-weight: 700;
+  line-height: 1.16;
 }
 
 .team {
@@ -166,6 +151,7 @@ body {
   font-size: 16px;
   color: var(--black-text);
   background-color: var(--grey-back);
+  font-family: "roboto";
 }
 
 /* псевдоклассы состояния: */
