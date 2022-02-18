@@ -14,10 +14,10 @@
 <body>
     <header>
         <div class="container header-container">
-            <nav class="site-nav">
-                <a lang="en" href="" class="logo"><span class="logo-first">Web</span><span
-                    class="logo-sec">Studio</span></a>
-                <ul class="list navigation">
+            <a lang="en" href="" class="logo"><span class="logo-first">Web</span><span
+                class="logo-sec">Studio</span></a>
+            <nav>
+                <ul class="list site-nav">
                     <li class="nav-item"><a class="current" href="./index.html">Студия</a></li>
                     <li class="nav-item"><a class="link interactive" href="./portfolio.html">Портфолио</a></li>
                     <li class="nav-item"><a class="link interactive" href="">Контакт</a></li>
@@ -30,73 +30,75 @@
         </div>
     </header>
     <main>
-        <section>
-            <h1 class="hero">ЭФФЕКТИВНЫЕ РЕШЕНИЯ ДЛЯ ВАШЕГО БИЗНЕСА</h1>
+        <section class=" section hero-css">
+            <h1 class="hero">ЭФФЕКТИВНЫЕ РЕШЕНИЯ <br> ДЛЯ ВАШЕГО БИЗНЕСА</h1>
             <button class="order" type="button">Заказать услугу</button>
         </section>
-        <section>
+        <section class=" section container">
             <h2 class="unvisible">преимущества компании</h2>
-            <ul>
-                <li>
-                    <h3 class="advantages">ВНИМАНИЕ К ДЕТАЛЯМ</h3>
+            <ul class="advantages list">
+                <li class="adv-item">
+                    <h3 class="advantage">ВНИМАНИЕ К ДЕТАЛЯМ</h3>
                     <p class="description">Идейные соображения, а также начало повседневной работы по формированию
                         позиции.</p>
                 </li>
-                <li>
-                    <h3 class="advantages">ПУНКТУАЛЬНОСТЬ</h3>
+                <li class="adv-item">
+                    <h3 class="advantage">ПУНКТУАЛЬНОСТЬ</h3>
                     <p class="description">Задача организации, в особенности же рамки и место обучения кадров влечет за
                         собой.</p>
                 </li>
-                <li>
-                    <h3 class="advantages">ПЛАНИРОВАНИЕ</h3>
+                <li class="adv-item">
+                    <h3 class="advantage">ПЛАНИРОВАНИЕ</h3>
                     <p class="description">Равным образом консультация с широким активом в значительной степени
                         обуславливает.</p>
                 </li>
-                <li>
-                    <h3 class="advantages">СОВРЕМЕННЫЕ ТЕХНОЛОГИИ</h3>
+                <li class="adv-item">
+                    <h3 class="advantage">СОВРЕМЕННЫЕ ТЕХНОЛОГИИ</h3>
                     <p class="description">Значимость этих проблем настолько очевидна, что реализация плановых заданий.
                     </p>
                 </li>
             </ul>
         </section>
-        <section>
-            <h2 class="section-name">Чем мы занимаемся</h2>
-            <ul>
-                <li>
+        <section class=" section container">
+            <h2 class="section gigs-title">Чем мы занимаемся</h2>
+            <ul class="gigs list">
+                <li class="gig">
                     <a href=""> <img src="./images/pic-1.jpg" width="370" alt="десктопные приложения"></a>
                 </li>
-                <li>
+                <li class="gig">
                     <a href=""> <img src="./images/pic-2.jpg" width="370" alt="мобильные приложения"></a>
                 </li>
-                <li>
+                <li class="gig">
                     <a href=""> <img src="./images/pic-3.jpg" width="370" alt="дизайнерские решения"></a>
                 </li>
             </ul>
         </section>
-        <section class="team">
-            <h2 class="section-name">Наша команда</h2>
-            <ul>
-                <li>
-                    <img src="./images/img-3.jpg" alt="фото Игоря Демьяненко" width="270" />
-                    <p>Игорь Демьяненко</p>
-                    <p class="profession" lang="en">Product Designer</p>
-                </li>
-                <li>
-                    <img src="./images/img-2.jpg" alt="фото Ольги Репиной" width="270" />
-                    <p>Ольга Репина</p>
-                    <p class="profession" lang="en">Frontend Developer</p>
-                </li>
-                <li>
-                    <img src="./images/img-1.jpg" alt="фото Николая Тарасова" width="270" />
-                    <p>Николай Тарасов</p>
-                    <p class="profession" lang="en">Marketing</p>
-                </li>
-                <li>
-                    <img src="./images/img.jpg" alt="фото Михаила Ермакова" width="270" />
-                    <p>Михаил Ермаков</p>
-                    <p class="profession" lang="en">Product Designer</p>
-                </li>
-            </ul>
+        <section class=" section team ">
+            <div class="container">
+                <h2 class="section-name">Наша команда</h2>
+                <ul class="stuff list">
+                    <li class="stuff-item">
+                        <img src="./images/img-3.jpg" alt="фото Игоря Демьяненко" width="270" />
+                        <p class="name">Игорь Демьяненко</p>
+                        <p class="profession" lang="en">Product Designer</p>
+                    </li>
+                    <li class="stuff-item">
+                        <img src="./images/img-2.jpg" alt="фото Ольги Репиной" width="270" />
+                        <p class="name">Ольга Репина</p>
+                        <p class="profession" lang="en">Frontend Developer</p>
+                    </li>
+                    <li class="stuff-item">
+                        <img src="./images/img-1.jpg" alt="фото Николая Тарасова" width="270" />
+                        <p class="name">Николай Тарасов</p>
+                        <p class="profession" lang="en">Marketing</p>
+                    </li>
+                    <li class="stuff-item">
+                        <img src="./images/img.jpg" alt="фото Михаила Ермакова" width="270" />
+                        <p class="name">Михаил Ермаков</p>
+                        <p class="profession" lang="en">Product Designer</p>
+                    </li>
+                </ul>   
+            </div>
         </section>
     </main>
     <footer class="footer">
