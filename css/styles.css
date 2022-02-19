@@ -51,12 +51,14 @@ a {
   color: var(--grey-text);
   font-size: var(--size-heder);
   line-height: var(--height-heder);
+  font-weight: 500;
 }
 
 .phone {
   color: var(--grey-text);
   font-size: var(--size-heder);
   line-height: var(--height-heder);
+  font-weight: 500;
 }
 
 .current {
@@ -116,10 +118,6 @@ a {
 .profession {
   color: var(--grey-text);
   font-weight: 400;
-}
-
-.footer {
-  background-color: var(--dark-back);
 }
 
 .adress {
@@ -219,11 +217,13 @@ img {
   display: flex;
   align-items: center;
   padding: 24px 0;
+  border-block-color: #ECECEC;
   }
 
   .site-nav {
     display: flex;
     display: flex;
+    margin-left: 93px;
   }
 
 .header-contacts {
@@ -274,6 +274,10 @@ img {
   display: flex;
 }
 
+.advantage {
+  margin-bottom: 10px;
+}
+
 .adv-item:not(:last-child) {
   margin-right: 30px;
 }
@@ -282,7 +286,6 @@ img {
 
 .gigs-title {
   text-align: center;
-  margin-bottom: 50px;
 }
 
 .gigs {
@@ -293,6 +296,10 @@ img {
 .gig:not(:last-child) {
   margin-right: 30px;
 }  
+
+.section-name {
+  padding-bottom: 50px;
+}
 
 /* team */
 
@@ -323,4 +330,27 @@ img {
 
 .section-name {
   text-align: center;
+}
+
+/* footer */
+
+.footer {
+  background-color: var(--dark-back);
+}
+
+.footer-container {
+  padding: 60px 0;
+  }
+
+.logo-footer {
+  margin-bottom: 50px;
+}  
+
+.adress {
+  margin-top: 20px;
+  margin-bottom: 9px;
+}
+
+.mail-footer {
+  margin-bottom: 9px;
 }
