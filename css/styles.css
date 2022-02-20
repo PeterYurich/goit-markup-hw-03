@@ -243,13 +243,6 @@ img {
     margin-right: 50px;
   }
 
-.demo {
-  background-color: red;
-  color: #2196f3;
-  padding: 0 10px;
-  flex-grow: 0;
-}
-
 /* hero */
 
 .hero-css {
