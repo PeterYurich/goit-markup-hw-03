@@ -375,11 +375,12 @@ img {
 
 .portfolio {
   display: flex;
+  flex-wrap: wrap;
   }
 
-.portfolio-item:not(:last-child) {
-  margin-right: 30px;
-  border: 1px solid #EEE
+.portfolio-item {
+  border: 1px solid #EEE;
+  margin-bottom: 30px;
 }  
 
 .portfolio-name {
@@ -394,6 +395,10 @@ img {
 
 .portfolio-name, .portfolio-type {
   margin-left: 24px;
+}
+
+.portfolio-item:not(:nth-child(3n)) {
+  margin-right: 30px;
 }
 
 /* end))) */
