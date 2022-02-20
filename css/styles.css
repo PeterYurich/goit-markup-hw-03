@@ -217,11 +217,15 @@ img {
   display: flex;
   align-items: center;
   padding: 24px 0;
-  border-block-color: #ECECEC;
   }
 
+.header {
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-bottom-color: #ECECEC;
+}  
+
   .site-nav {
-    display: flex;
     display: flex;
     margin-left: 93px;
   }
