@@ -373,12 +373,10 @@ img {
 .portfolio {
   display: flex;
   flex-wrap: wrap;
+  margin-bottom: -30px;
+  margin-right: -30px;
   }
 
-.portfolio-item:not(:nth-last-child(-n+3)) {
-  border: 1px solid #EEE;
-  margin-bottom: 30px;
-}  
 
 .portfolio-name {
   margin-top: 20px;
@@ -394,8 +392,18 @@ img {
   margin-left: 24px;
 }
 
-.portfolio-item:not(:nth-child(3n)) {
+/* .portfolio-item:not(:nth-child(3n)) {
   margin-right: 30px;
+}
+.portfolio-item:not(:nth-last-child(-n+3)) {
+  border: 1px solid #EEE;
+  margin-bottom: 30px;
+}   */
+
+.portfolio-item {
+  margin-bottom: 30px;
+  margin-right: 30px;
+  flex-basis: calc((100% - (3*30px)) / 3);
 }
 
 /* end))) */
