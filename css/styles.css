@@ -354,3 +354,46 @@ img {
 .mail-footer {
   margin-bottom: 9px;
 }
+
+/* button-filter */
+
+.filters {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 54px;
+}
+
+.filter {
+  border-radius: 4px;
+  padding: 6px 22px;
+}
+
+.filter-item:not(:last-child) {
+  margin-right: 8px;}
+
+/* portfolio */
+
+.portfolio {
+  display: flex;
+  }
+
+.portfolio-item:not(:last-child) {
+  margin-right: 30px;
+  border: 1px solid #EEE
+}  
+
+.portfolio-name {
+  margin-top: 20px;
+  margin-bottom: 4px;
+  color: var(--black-text);
+}
+
+.portfolio-type {
+  margin-bottom: 20px;
+}
+
+.portfolio-name, .portfolio-type {
+  margin-left: 24px;
+}
+
+/* end))) */
