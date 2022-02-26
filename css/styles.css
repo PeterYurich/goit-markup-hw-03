@@ -201,6 +201,8 @@ ul, ol{
 
 img {
   display: block;
+  max-width: 100%;
+  height: auto;
 }
 
 /* header: */
@@ -222,7 +224,7 @@ padding-top: 0;
 .header-container {
   display: flex;
   align-items: center;
-  padding: 24px 0 25px 0;
+  padding: 24px 15px 25px;
   }
 
 .header {
@@ -334,9 +336,6 @@ padding-top: 0;
 
 .footer {
   background-color: var(--dark-back);
-}
-
-.footer-container {
   padding: 60px 0;
   }
 
