@@ -71,7 +71,7 @@ color: var(--accent-color);}
   color: inherit;
 }
 
-.hero {
+.hero-section {
   background-color: var(--dark-back);
   font-weight: 900;
   font-size: 44px;
@@ -81,8 +81,16 @@ color: var(--accent-color);}
 }
 
 .unvisible {
-  visibility: hidden;
-}
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;}
 
 .order {
   background-color: var(--accent-color);
@@ -224,17 +232,21 @@ padding-top: 0;
 .header-container {
   display: flex;
   align-items: center;
-  padding: 24px 15px 25px;
   }
 
 .header {
   border-bottom-style: solid;
   border-bottom-width: 1px;
   border-bottom-color: #ECECEC;
+  padding-top: 24px;
+  padding-bottom: 25px;
 }  
 
   .site-nav {
     display: flex;
+  }
+
+  .nav {
     margin-left: 93px;
   }
 
@@ -307,7 +319,7 @@ padding-top: 0;
 }  
 
 .section-name {
-  padding-bottom: 50px;
+  margin-bottom: 50px;
 }
 
 /* team */
@@ -404,7 +416,6 @@ button {
 }
 
 .port-desc {
-  width: 370px;
   padding: 20px 24px;
   border: 1px solid #EEEEEE;
   border-top: none;
