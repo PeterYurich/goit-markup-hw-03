@@ -15,7 +15,40 @@ body {
   color: var(--black-text);
   font-size: 14px;
   font-weight: 700;
-  line-height: 1;
+}
+
+
+/* сбросы: */
+
+
+button {
+  border: none;
+}
+
+p,
+h1,
+h2,
+h3 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+ul,
+ol {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+
+.list {
+  list-style: none;
+  padding-bottom: 0;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
 }
 
 .list {
@@ -32,7 +65,8 @@ a {
   font-family: "Raleway";
   font-size: 26px;
   text-align: Left;
-  letter-spacing: 3%;
+  letter-spacing: 0.03em;
+  line-height: 1.19;
 }
 .logo-sec {
   color: var(--black-text);
@@ -70,12 +104,14 @@ a {
 }
 
 .hero-section {
+  display: flex;
   background-color: var(--dark-back);
+  padding: 200px 0;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.16;
   color: var(--white-text);
-  letter-spacing: 6%;
+  letter-spacing: 0.06em;
 }
 
 .unvisible {
@@ -103,12 +139,12 @@ a {
   font-weight: 400;
   color: var(--grey-text);
   line-height: 1.46;
-  letter-spacing: 3%;
+  letter-spacing: 0.03em;
 }
 
 .advantage {
   font-weight: 700;
-  letter-spacing: 3%;
+  letter-spacing: 0.03em;
 }
 
 .section-name {
@@ -188,34 +224,6 @@ a {
 
 /* hm-3-flex */
 
-/* сбросы: */
-
-p,
-h1,
-h2,
-h3 {
-  margin-top: 0;
-  margin-bottom: 0;
-}
-
-ul,
-ol {
-  margin-top: 0;
-  margin-bottom: 0;
-  padding-left: 0;
-}
-
-.list {
-  list-style: none;
-  padding-bottom: 0;
-}
-
-img {
-  display: block;
-  max-width: 100%;
-  height: auto;
-}
-
 /* header: */
 
 .container {
@@ -238,9 +246,7 @@ img {
 }
 
 .header {
-  border-bottom-style: solid;
-  border-bottom-width: 1px;
-  border-bottom-color: #ececec;
+  border-bottom: 1px solid #ececec;
   padding-top: 24px;
   padding-bottom: 25px;
 }
@@ -268,21 +274,25 @@ img {
 
 /* hero */
 
-.hero-css {
+.hero-container {
   display: flex;
   flex-direction: column;
   background-color: var(--dark-back);
-  min-width: auto;
   justify-content: center;
   align-items: center;
-  padding: 200px 0;
 }
 
 .hero {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.16;
+  color: var(--white-text);
+  /* background-color: #c4c4c4; */
+  letter-spacing: 0.06em;
+  max-width: 696px;
   margin-bottom: 30px;
   text-align: center;
 }
-
 .order {
   border-radius: 4px;
   padding: 10px 32px;
@@ -308,15 +318,11 @@ img {
 
 /* чем мы занимаемся */
 
-.gigs-title {
-  text-align: center;
-}
-
-.gigs {
+.activity {
   display: flex;
 }
 
-.gig:not(:last-child) {
+.list-item:not(:last-child) {
   margin-right: 30px;
 }
 
@@ -415,9 +421,6 @@ img {
 
 /* fixing bugs */
 
-button {
-  border: none;
-}
 
 .port-desc {
   padding: 20px 24px;
